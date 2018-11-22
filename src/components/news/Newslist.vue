@@ -86,9 +86,9 @@
                 newList:[]
             }
         },
-        created(){
-            this.getNewslist()
-        },
+        // created(){
+        //     this.getNewslist()
+        // },
         methods:{
             getNewslist(){
                 this.$http.get('http:111').then(result =>{
